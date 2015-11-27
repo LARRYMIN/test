@@ -31,6 +31,7 @@ public class MainActivity extends Activity {
 		
 		
 		SQLiteDatabase sqlitedb = dbHelper.getReadableDatabase();
+		sqlitedb = dbHelper.getReadableDatabase();
 		
 		//dbHelper.onUpgrade(sqlitedb, 1, 2);
 		
